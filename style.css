@@ -7,10 +7,14 @@
             
         }
         header{
+            position: sticky;
+            top: 0;
+            width: 100%;
             display: flex;
             justify-content: center;
             background-color: #e0e0e0;
             padding: 10px 0;
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
         }
         nav li{
             border-radius: 5px;
@@ -33,7 +37,7 @@
         }
         main{
             width: 80vw;
-            margin: auto;
+            margin: auto ;
             background-color: white;
             padding: 10px 0px;
         }
@@ -45,12 +49,30 @@
             padding: 10px 20px;
             font-size: 18px;
         }
+        main img{
+            height: 200px;
+            width: 200px;
+        }
+        .bloco_horizontal{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        .individual{
+            width: 200px;
+            text-align: justify;
+            background-color: #c0c0c0;
+            border: 10px solid #c0c0c0;
+            border-radius: 10px; 
+        }
         .formacao{
             padding: 10px 40px;
             list-style-type: none;
         }
         
         .tecnologias{
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
             margin: auto ;
             background-color: #c0c0c0;
             width: 85%;
@@ -61,7 +83,7 @@
             padding: 20px 0;
         }
         footer{
+            box-shadow: 0px -2px 5px rgba(0,0,0,0.3);
             background-color: #e0e0e0;
             text-align: center;
-            padding: 10px 0;
         }
