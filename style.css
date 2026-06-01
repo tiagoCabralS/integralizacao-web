@@ -62,6 +62,7 @@
             padding: 20px 0;
         }
         .individual{
+            box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
             width: 200px;
             text-align: justify;
             background-color: #c0c0c0;
